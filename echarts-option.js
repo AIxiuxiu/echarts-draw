@@ -1,4 +1,4 @@
-window.dataList = [
+var dataList = [
     { name: '南海诸岛', value: 0 },
     { name: '北京', value: 54 },
     { name: '天津', value: 13 },
@@ -70,5 +70,5 @@ option = {
             emphasis: { areaColor: '#f2d5ad', shadowOffsetX: 0, shadowOffsetY: 0, borderWidth: 0 },
         },
     },
-    series: [{ name: '确诊病例', type: 'map', geoIndex: 0, data: window.dataList }],
+    series: [{ name: '确诊病例', type: 'map', geoIndex: 0, data: dataList }],
 };

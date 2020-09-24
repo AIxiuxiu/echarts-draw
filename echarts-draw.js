@@ -31,7 +31,7 @@ var config = {
 
   DEFAULT_WIDTH: '800', //图片默认宽
   DEFAULT_HEIGHT: '400', //图片默认高
-  TIMEOUT: 5000, // 超时时间5s
+  TIMEOUT: 50000, // 超时时间5s
 };
 
 // 地图  也可使用echarts官网地图 https://gallerybox.echartsjs.com/dep/echarts/map/js/china.js，
